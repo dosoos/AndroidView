@@ -14,19 +14,19 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ImageView;
 
-public class CicraleImageView extends ImageView {
+public class CicrleImageView extends ImageView {
 	private static final String TAG = "CicraleView";
 	public Bitmap bitmap = null;
 	
-	public CicraleView(Context context) {
+	public CicrleImageView(Context context) {
 		this(context, null);
 	}
 
-	public CicraleView(Context context, AttributeSet attrs) {
+	public CicrleImageView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 	}
 
-	public CicraleView(Context context, AttributeSet attrs, int defStyle) {
+	public CicrleImageView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 
 	}
