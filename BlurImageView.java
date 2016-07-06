@@ -33,6 +33,10 @@ public class BlurImageView extends ImageView {
     @Override
     protected void onDraw(Canvas canvas) {
         Drawable drawable = getDrawable();
+	if (drawable == null) {
+            super.onDraw(canvas);
+            return;
+        }
         Bitmap bitmap = drawableToBitmap(drawable);
         Bitmap blur = blur(getContext(), bitmap);
         setImageBitmap(blur);
