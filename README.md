@@ -1,9 +1,13 @@
 # android custom view
 # android 自定义View
 
- - android recycle iamge view
+ - android recycle imamge view
 
 ![](image/738536A64C2D.png)
+
+ - android progress imamge view 进度条圆形图片
+
+![](image/progress_image.gif)
 
  - android PulsingHalo 脉冲波 地震波 雷达辐射
 
