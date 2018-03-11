@@ -16,9 +16,3 @@
  - android BlurImageView android 高斯模糊 gaussian blur 图片蒙层
 
 ![](image/imageviewblur.png)
-
-# 注：该作者可接受捐赠
--------------------------------------------------------
-|![微信](image/wechat.png) | ![支付宝](image/alipay.png)|
--------------------------------------------------------
-
